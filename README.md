@@ -3,12 +3,9 @@
 kubectl apply -f manifest.yml
 
 ## To run see deployment locally apply port forwarding on your machine:
-- for backend this port is used: 
-kubectl port-forward service/sa-homework-api 8000:8000
+- kubectl port-forward service/sa-homework-api 8000:8000 (for backend this port is used)
 
-- for frontend this port is used: 
-kubectl port-forward service/sa-homework-web 3000:3000 
-
+- kubectl port-forward service/sa-homework-web 3000:3000 (for frontend this port is used)
 
 # Project description:
 - ToDo app (CRUD, first task included)
