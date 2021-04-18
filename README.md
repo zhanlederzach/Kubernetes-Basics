@@ -1,6 +1,6 @@
 # Kubernetes-Basics
-Manifest-ingress.yaml includes second task with ingress.
-Manifest.yaml includes 1 and 2 tasks without ingress, in order to run it port forwarding are needed to run.
+- Manifest-ingress.yaml includes second task with ingress.
+- Manifest.yaml includes 1 and 2 tasks without ingress, in order to run it port forwarding are needed to run.
 
 ## Run following to apply kubernetes manifest:
 kubectl apply -f manifest.yml
