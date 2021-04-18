@@ -17,8 +17,6 @@ spec:
       containers:
         - name: api
           image: zhanlederzach/sa-homework-api-ingress
-            initialDelaySeconds: 90
-            periodSeconds: 10
 
 ---
 apiVersion: v1
